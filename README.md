@@ -8,9 +8,10 @@ vagrant up
 ```
 
 # Run the playbook
-to run *ansible-playbook web-notls.yml -vvvv*
+run `ansible-playbook web-notls.yml -vvvv`
 
 # Generating TLS certificate
+Create a `files` directory in the root if you don't have it already.
 ```
 openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -subj /CN=localhost -keyout files/nginx.key -out files/nginx.csr
 ```
