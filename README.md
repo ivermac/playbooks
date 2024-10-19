@@ -23,3 +23,5 @@ ansible all -a "date"
 
 # Notes
 Ansible looks for `host_vars` and `group_vars`. Ansible expects these directories to be either in the directory that contains your playbooks or in the directory adjacent to your inven‐ tory file. In our case, those two directories are the same.
+
+test signing
